@@ -30,6 +30,7 @@ import java.io.IOException
 import java.util.*
 
 class MainActivity : AppCompatActivity(), OnMapReadyCallback, View.OnClickListener, GoogleMap.OnMapClickListener {
+
     override fun onMapClick(latLng: LatLng?) {
         mMap?.clear()
         mMap?.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 13f))
