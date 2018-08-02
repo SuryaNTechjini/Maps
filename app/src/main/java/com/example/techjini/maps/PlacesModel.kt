@@ -21,7 +21,7 @@ class Result{
     @SerializedName("place_id")
     var placeId : String ? = null
 
-    @SerializedName("formatted_phone_number")
+    @SerializedName("international_phone_number")
     var fomattedNumber : String ? = null
 
     @SerializedName("name")
@@ -35,5 +35,6 @@ class Place{
     @SerializedName("result")
     var result : Result ? = null
 }
+
 
 

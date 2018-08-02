@@ -33,6 +33,7 @@ dependencies {
     implementation "com.android.support:cardview-v7:28.0.0-beta01"
     //noinspection UseOfBundledGooglePlayServices
     implementation 'com.google.android.gms:play-services:12.0.1'
+    implementation "com.google.android.gms:play-services-maps:15.0.1"
     implementation 'com.google.firebase:firebase-core:16.0.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
