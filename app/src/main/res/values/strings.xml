@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">Maps</string>
-        <string name="title_activity_maps">Current Place Details</string>
-        <string name="default_info_title">Default Location</string>
-        <string name="default_info_snippet">No places found, because location permission is disabled.</string>
-        <string name="option_get_place">Get place</string>
-        <string name="pick_place">Choose a place</string>
+    <string name="title_activity_maps">Current Place Details</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
     <string name="directions">Directions</string>
     <string name="call">call</string>
+    <string name="unknown_header">Dropped Pin</string>
+    <string name="unknown_message_pinned">UnKnown Location</string>
+
 </resources>

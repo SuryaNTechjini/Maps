@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "732759687739",
+    "firebase_url": "https://maps-1531117996694.firebaseio.com",
+    "project_id": "maps-1531117996694",
+    "storage_bucket": "maps-1531117996694.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732759687739:android:a871c90ee993a230",
+        "android_client_info": {
+          "package_name": "com.example.techjini.maps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732759687739-mvenj93pdi66s1l58opem7q8322tp10s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdLCfrH0jCxQdGIA62tugdHVBmp8wpuqE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
