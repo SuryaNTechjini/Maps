@@ -130,6 +130,8 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, View.OnClickListen
             mLastKnownLocation = savedInstanceState.getParcelable(KEY_LOCATION)
         }
 
+        binding?.clickHandler = this
+
         // Construct a GeoDataClient.
         Places.getGeoDataClient(this)
 
@@ -169,6 +171,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, View.OnClickListen
         // Get the current location of the device and set the position of the map.
         //getDeviceLocation();
         getCurrentLocation(this)
+        mMap?.setOnMapClickListener(this)
     }
 
     private fun getCurrentLocation(context: Context) {
